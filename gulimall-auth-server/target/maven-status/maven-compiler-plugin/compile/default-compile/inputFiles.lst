@@ -1,0 +1,11 @@
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\feign\fallback\MemberFallbackService.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\GulimallAuthServerApplication.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\vo\UserRegisterVo.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\controller\LoginController.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\config\GulimallSessionConfig.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\feign\MemberFeignService.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\vo\UserLoginVo.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\config\AuthWebConfig.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\vo\SocialUser.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\controller\OauthController.java
+D:\Java\Project\gulimall-learning-master\gulimall-auth-server\src\main\java\io\niceseason\gulimall\auto\feign\ThirdPartFeignService.java
