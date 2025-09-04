@@ -1,119 +1,9 @@
-# 谷粒商城
+# 校园代购平台项目
 
-![](https://img.shields.io/badge/building-passing-green.svg)![GitHub](https://img.shields.io/badge/license-MIT-yellow.svg)![jdk](https://img.shields.io/static/v1?label=oraclejdk&message=8&color=blue)
-
-谷粒商城项目致力于打造一个完整的大型分布式架构电商平台，采用现阶段流行技术来实现，采用前后端分离编写。
-
-## 项目学习资源
-
-- 项目文档
-
-  [分布式基础篇](docs/谷粒商城—分布式基础.md)
-
-  [分布式高级篇](docs/谷粒商城—分布式高级.md)
-
-- 接口文档：https://easydoc.xyz/s/78237135/ZUqEdvA4/hKJTcbfd
-
-- 视频链接：https://www.bilibili.com/video/BV1np4y1C7Yf?from=search&seid=8989733132604162058
 
 ## 项目介绍
 
-谷粒商城项目是一套电商项目，包括前台商城系统以及后台管理系统，基于 SpringCloud、SpringCloud Alibaba、MyBatis Plus实现。前台商城系统包括：用户登录、注册、商品搜索、商品详情、购物车、订单、秒杀活动等模块。后台管理系统包括：系统管理、商品系统、优惠营销、库存系统、订单系统、用户系统、内容管理等七大模块。
-
-## 项目演示
-
-### 前台商品系统
-
-#### 首页
-
-![](https://i.loli.net/2021/02/18/HPezsS6oYxJ5yRI.png)
-
-#### 商品检索
-
-![](https://i.loli.net/2021/02/18/ki2AWeMRIxKqlVm.png)
-
-#### 认证
-
-![](https://i.loli.net/2021/02/18/iO2cCXNGvLsptnh.png)
-
-<img src="https://i.loli.net/2021/02/18/OIt4FbsUwqV8gZL.png" style="zoom:38%;" />
-
-#### 商品详情
-
-![](https://i.loli.net/2021/02/18/B8qjpkwcT5Potzh.png)
-
-#### 购物车
-
-![](https://i.loli.net/2021/02/18/uEYqnQ2Kx7WZy1G.png)
-
-#### 结算页
-
-#### ![](https://i.loli.net/2021/02/18/T3mVbdpfqKsrNJC.png)支付
-
-![](https://i.loli.net/2021/02/18/SvP1oUVmrnx8cET.png)
-
-![](https://i.loli.net/2021/02/18/QqWzVtk1ZwvrURl.png)
-
-![](https://i.loli.net/2021/02/18/jfKRiLH4trSpwYe.png)
-
-
-
-### 后台管理系统
-
-#### 登录
-
-![](https://i.loli.net/2021/02/18/6KVEbFZMrgnUet3.png)
-
-#### 商品系统
-
-**分类管理**
-
-![](https://i.loli.net/2021/02/18/gsTcQRKDEWnUzIY.png)
-
-**品牌管理**
-
-![](https://i.loli.net/2021/02/18/FCKNfMTs9Pt3oVj.png)**平台属性**
-
-![ss](https://i.loli.net/2021/02/18/vCSnt1KjOyghB57.png)
-
-**商品管理**
-
-![](https://i.loli.net/2021/02/18/H6YkoCVOLQyfBN7.png)
-
-**发布商品**
-
-![](https://i.loli.net/2021/02/18/I1WtlCAb9hHUwky.png)
-
-#### 其他系统
-
-<div>
-     <img src="docs/images/Snipaste_2021-02-18_16-58-44.png" style="zoom:40%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-47-40.png" style="zoom:40%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-06.png" style="zoom:50%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-43.png" style="zoom:50%;" />
-    <img src="docs/images/Snipaste_2021-02-18_16-57-58.png" style="zoom:50%;" />
-</div>
-
-
-
-## 组织结构
-
-```
-gulimall
-├── gulimall-common -- 工具类及通用代码
-├── renren-generator -- 人人开源项目的代码生成器
-├── gulimall-auth-server -- 认证中心（社交登录、OAuth2.0）
-├── gulimall-cart -- 购物车服务
-├── gulimall-coupon -- 优惠卷服务
-├── gulimall-gateway -- 统一配置网关
-├── gulimall-order -- 订单服务
-├── gulimall-product -- 商品服务
-├── gulimall-search -- 检索服务
-├── gulimall-seckill -- 秒杀服务
-├── gulimall-third-party -- 第三方服务（对象存储、短信）
-├── gulimall-ware -- 仓储服务
-└── gulimall-member -- 会员服务
-```
+本项目是一个B2C业务模式的校园代购网上平台，在分布式环境下利用SpringCloud框架，通过业务划分可以分为商品服务、购物车服务、登录服务、订单服务和支付服务等。
 
 ## 技术选型
 
@@ -142,11 +32,7 @@ gulimall
 | thymeleaf |  模板引擎  | https://www.thymeleaf.org |
 |  node.js  | 服务端的js |   https://nodejs.org/en   |
 
-## 架构图
 
-### 系统架构图
-
-![](https://i.loli.net/2021/02/18/zMrSWaAfbqYoF4t.png)
 
 ### 业务架构图
 
